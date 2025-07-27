@@ -104,7 +104,8 @@ nav a.active {
     font-size: 1.5rem;
 }
 
-.dropdown a:hover, a:active {
+.dropdown a:hover,
+a:active {
     color: #6dda46;
 }
 
@@ -386,8 +387,6 @@ body[data-page="home"] #contact {
         height: auto;
     }
 
-
-
     #home .second-sec img {
         height: 20rem;
         width: 20rem;
@@ -468,7 +467,6 @@ body[data-page="home"] #contact {
         display: block;
     }
 
-    #contact .second-sec a {}
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -478,6 +476,7 @@ body[data-page="home"] #contact {
         padding: 5rem 0;
         gap: 5rem;
     }
+
     nav ul {
         gap: 2.5rem;
     }

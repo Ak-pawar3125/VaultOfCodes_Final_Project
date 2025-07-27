@@ -32,7 +32,8 @@
     border-radius: 2rem;
 }
 
-.product a, p {
+.product a,
+p {
     text-decoration: none;
     color: #065221;
     font-size: 1.1rem;
@@ -69,7 +70,7 @@
 }
 
 @media screen and (max-width: 575.98px) {
-    
+
     .hero img {
         height: 15rem;
     }
@@ -90,4 +91,3 @@
         align-items: center;
     }
 }
-

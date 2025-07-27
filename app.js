@@ -174,13 +174,11 @@ function placeOrder() {
     `;
 }
 
-
 fetch("footer.html")
   .then((response) => response.text())
   .then((data) => {
     document.getElementById("footer-placeholder").innerHTML = data;
 
-    // Now footer is loaded, run scroll listener
     const sections = document.querySelectorAll("section[id]");
     const navLinks = document.querySelectorAll("nav a");
 
