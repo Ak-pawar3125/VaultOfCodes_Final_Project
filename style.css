@@ -120,7 +120,7 @@ a:active {
 nav .menu {
     display: none;
     margin: 0;
-
+    font-size: 1.7rem;
 }
 
 #home,
@@ -399,6 +399,10 @@ body[data-page="home"] #contact {
 
     #home .first-sec h3 {
         font-size: 2rem;
+    }
+
+    #home .button-sec .buy {
+        font-size: 1rem;
     }
 
     #about {
