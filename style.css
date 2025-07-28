@@ -370,6 +370,13 @@ body[data-page="home"] #contact {
     border-radius: 2rem;
 }
 
+.footer-bottom p {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
 @media screen and (max-width: 575.98px) {
 
     nav ul,
